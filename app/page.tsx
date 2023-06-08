@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Outfit } from 'next/font/google';
 
 import profile from '../public/profile.png'
 
@@ -17,12 +16,9 @@ import cppIcon from '../public/icons/cpp.svg'
 
 import helpingHandHomepage from '../public/helping_hand/homepage.png'
 
-
-const outfit = Outfit({ subsets: ['latin'] });
-
 export default function Home() {
   return (
-    <body className={outfit.className}>
+    <body>
 
       <div className='h-24'></div>
 
