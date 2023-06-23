@@ -1,16 +1,8 @@
 "use client"
 import Link from 'next/link';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import { useState } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-
-    const handleNav = () => {
-        setNav(!nav)
-    }
 
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100]'>
@@ -31,7 +23,7 @@ const Navbar = () => {
                             <li className='ml-10 text-sm hover:border-b'>Contact</li>
                         </Link>
                     </ul>
-                    <div onClick={handleNav} className='md:hidden'>
+                    <div className='md:hidden'>
                         <AiOutlineMenu size={25} />
                     </div>
                 </div>

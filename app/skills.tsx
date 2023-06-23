@@ -11,7 +11,7 @@ import swiftuiIcon from '../public/icons/swiftui.svg'
 const Skills = () => {
     return (
         <div className='w-full lg:h-screen'>
-            <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+            <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center h-full'>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                     <div className='p-6 shadow-xl rounded-xl bg-[#2C2C33] hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
