@@ -1,7 +1,7 @@
 import { AiOutlineMail } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import Image from "next/image"
-import profileImg from '../public/profile.png'
+import profileImg from '../../public/profile.png'
 
 
 const Main = () => {

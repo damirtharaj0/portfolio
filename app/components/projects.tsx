@@ -1,8 +1,8 @@
 
 import ProjectItem from './project_item'
-import helpingHandImg from '../public/helping_hand/homepage.png';
-import workoutAppImg from '../public/workout_app/workout.png'
-import portfolioImg from '../public/portfolio/portfolio.png'
+import helpingHandImg from '../../public/helping_hand/homepage.png';
+import workoutAppImg from '../../public/workout_app/workout.png'
+import portfolioImg from '../../public/portfolio/portfolio.png'
 
 const Projects = () => {
     return (

@@ -1,6 +1,5 @@
 
 import Image, { StaticImageData } from "next/image"
-import Link from "next/link"
 
 const ProjectItem = ({ title, backgroundImg, skills }: { title: string, backgroundImg: StaticImageData, skills: Array<string> }) => {
     return (
