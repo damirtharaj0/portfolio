@@ -14,7 +14,7 @@ const Main = () => {
                     </h1>
                     <Image className='mx-auto pt-4' src={profileImg} alt='/' height={300} />
                     <p className='max-w-[70%] m-auto py-4'>
-                        I am a junior at Santa Clara University pursuing a B.S. in Computer Science and Engineering. I have experience with several programming languages and frameworks. In my free time, I enjoy weightlifting, hiking, and sneaker reselling.
+                        I am a junior at Santa Clara University pursuing a B.S. in Computer Science and Engineering. I have experience with several programming languages and frameworks. In my free time, I enjoy weightlifting, hiking, and wrestling.
                     </p>
                     <div className='flex items-center justify-between max-w-[250px] m-auto'>
                         <div className=' rounded-3xl bg-[#2C2C33] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
