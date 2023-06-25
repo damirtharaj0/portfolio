@@ -1,5 +1,5 @@
 
-import ProjectItem from './project_item'
+import ProjectItem from './project-item'
 import helpingHandImg from '../../public/helping_hand/homepage.png';
 import workoutAppImg from '../../public/workout_app/workout.png'
 import portfolioImg from '../../public/portfolio/portfolio.png'

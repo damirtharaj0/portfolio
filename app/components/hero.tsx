@@ -1,7 +1,8 @@
-import { AiOutlineMail } from "react-icons/ai"
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
-import Image from "next/image"
+import { AiOutlineMail } from 'react-icons/ai'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import Image from 'next/image'
 import profileImg from '../../public/profile.png'
+import Link from 'next/link'
 
 
 const Main = () => {
@@ -18,13 +19,19 @@ const Main = () => {
                     </p>
                     <div className='flex items-center justify-between max-w-[250px] m-auto'>
                         <div className=' rounded-3xl bg-[#2C2C33] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
+                            <a target="_blank" href='https://www.linkedin.com/in/damirtharaj/' rel="noopener noreferrer">
+                                <FaLinkedinIn />
+                            </a>
                         </div>
                         <div className='rounded-3xl bg-[#2C2C33] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaGithub />
+                            <a target="_blank" href='https://github.com/damirtharaj0' rel="noopener noreferrer">
+                                <FaGithub />
+                            </a>
                         </div>
                         <div className='rounded-3xl bg-[#2C2C33] shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineMail />
+                            <a target="_blank" href='mailto:damirtharaj1@gmail.com'>
+                                <AiOutlineMail />
+                            </a>
                         </div>
                     </div>
                 </div>
