@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from 'next/image'
 import pythonIcon from '../../public/icons/python.svg'
 import cppIcon from '../../public/icons/cpp.svg'
 import flaskIcon from '../../public/icons/flask.svg'

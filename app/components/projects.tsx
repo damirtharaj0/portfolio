@@ -11,8 +11,6 @@ const Projects = () => {
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectItem title='Helping Hand' backgroundImg={helpingHandImg} skills={['SwiftUI', 'Auth0', 'Flask', 'GPT-3 API', 'Apple Maps API']} />
                     <ProjectItem title='Workout App' backgroundImg={workoutAppImg} skills={['Flutter', 'Flask', 'MongoDB']} />
-                </div>
-                <div className='py-8'>
                     <ProjectItem title='Portfolio' backgroundImg={portfolioImg} skills={['Next.js', 'Tailwind CSS', 'Figma']} />
                 </div>
             </div>
