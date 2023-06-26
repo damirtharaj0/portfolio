@@ -10,10 +10,10 @@ const Projects = () => {
         <div className='w-full h-screen flex justify-center items-center'>
             <div className='max-w-[1240px] mx-auto px-2'>
                 <div className='grid md:grid-cols-2 gap-8'>
-                    <ProjectItem title='Helping Hand' backgroundImg={helpingHandImg} skills={['SwiftUI', 'Auth0', 'Flask', 'GPT-3 API', 'Apple Maps API']} />
-                    <ProjectItem title='Workout App' backgroundImg={workoutAppImg} skills={['Flutter', 'Flask', 'MongoDB']} />
-                    <ProjectItem title='Portfolio' backgroundImg={portfolioImg} skills={['Next.js', 'Tailwind CSS', 'Figma']} />
-                    <ProjectItem title='RDT 3.0 implementation' backgroundImg={rdtImg} skills={['C', 'Socket Programming']} />
+                    <ProjectItem title='Helping Hand' backgroundImg={helpingHandImg} skills={['SwiftUI', 'Auth0', 'Flask', 'GPT-3 API', 'Apple Maps API']} href='https://devpost.com/software/helping-hand-vif9x8' />
+                    <ProjectItem title='Workout App' backgroundImg={workoutAppImg} skills={['Flutter', 'Flask', 'MongoDB']} href='https://github.com/damirtharaj0/workoutapp' />
+                    <ProjectItem title='Portfolio' backgroundImg={portfolioImg} skills={['Next.js', 'Tailwind CSS', 'Figma']} href='' />
+                    <ProjectItem title='RDT 3.0 implementation' backgroundImg={rdtImg} skills={['C', 'Socket Programming']} href='https://github.com/damirtharaj0/reliable_udp_protocol' />
                 </div>
             </div>
         </div>
