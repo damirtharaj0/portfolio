@@ -9,17 +9,14 @@ const Navbar = () => {
                 <p>Daniel Amirtharaj</p>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href='/'>
-                            <li className='ml-10 text-sm hover:border-b'>Home</li>
+                        <Link href='#hero'>
+                            <li className='ml-10 text-sm hover:border-b'>About</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#skills'>
                             <li className='ml-10 text-sm hover:border-b'>Skills</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='#projects'>
                             <li className='ml-10 text-sm hover:border-b'>Projects</li>
-                        </Link>
-                        <Link href='/'>
-                            <li className='ml-10 text-sm hover:border-b'>Contact</li>
                         </Link>
                     </ul>
                     <div className='md:hidden'>
