@@ -6,7 +6,6 @@ import Projects from "./components/projects"
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Main />
       <Skills />
       <Projects />

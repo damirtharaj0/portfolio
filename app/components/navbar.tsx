@@ -18,6 +18,9 @@ const Navbar = () => {
                         <Link href='#projects'>
                             <li className='ml-10 text-sm hover:border-b'>Projects</li>
                         </Link>
+                        <Link href='/blog'>
+                            <li className='ml-10 text-sm hover:border-b'>Blog</li>
+                        </Link>
                     </ul>
                     <div className='md:hidden'>
                         <AiOutlineMenu size={25} />
